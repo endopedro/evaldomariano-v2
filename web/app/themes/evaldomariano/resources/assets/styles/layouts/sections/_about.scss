@@ -1,0 +1,32 @@
+.section-about {
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+
+  .about-img-frame {
+    border: 1.25rem solid #b8a07e;
+
+    .about-img img {
+      width: 100%;
+      box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.14);
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+
+  .about-descr {
+    .about-descr-heading {
+      font-family: "Playfair Display", serif;
+      font-size: 1.75rem;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .about-descr-text {
+      p {
+        margin: 0.75rem 0;
+        text-align: justify;
+      }
+    }
+  }
+}

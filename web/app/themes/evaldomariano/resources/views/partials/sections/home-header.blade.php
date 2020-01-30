@@ -1,9 +1,9 @@
-<section class="front-header">
+<section class="home-header">
 
   <div class="slide-item" style="background: url('http://evaldomariano.com.br/wp-content/uploads/cropped-ev_avt.jpg') repeat scroll right center / cover"></div>
 
   <div class="container">
-    <div class="front-header-content">
+    <div class="home-header-content">
       <h1 class="header-title">EVALDO MARIANO</h1>
       <h2 class="header-subtitle"><span class="typed">texto do typed</span></h2>
 
