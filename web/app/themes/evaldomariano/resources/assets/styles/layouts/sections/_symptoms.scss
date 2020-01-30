@@ -1,0 +1,12 @@
+.section-symptoms {
+  background: url("") repeat scroll center center / cover;
+  width: 100%;
+  height: auto;
+  color: $white;
+
+  .symptoms-left-subtitle,
+  .symptoms-text {
+    color: $white;
+    font-weight: 600;
+  }
+}

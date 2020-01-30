@@ -3,4 +3,5 @@
 @section('content')
   @include('partials.sections.home-header')
   @include('partials.sections.about')
+  @include('partials.sections.symptoms')
 @endsection
