@@ -5,16 +5,37 @@
       <h2>O que ofereço</h2>
     </div>
 
-    <div class="services-icons-wrap">
+    <div class="services-wrapper">
 
-      <a href="#">
-        <div class="services-icon">
-          <img src="@asset('images/icons/idea.png')" alt="">
-          <span>Orientação Psicológica</span>
-        </div>
-      </a>
+      <div class="services-item">
+        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
+        <h5 class="services-item-title">Orientação Psicológica</h5>
+      </div>
+      <div class="services-item">
+        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
+        <h5 class="services-item-title">Orientação Psicológica</h5>
+      </div>
+      <div class="services-item">
+        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
+        <h5 class="services-item-title">Orientação Psicológica</h5>
+      </div>
+      <div class="services-item">
+        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
+        <h5 class="services-item-title">Orientação Psicológica</h5>
+      </div>
+      <div class="services-item">
+        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
+        <h5 class="services-item-title">Orientação Psicológica</h5>
+      </div>
+      <div class="services-item">
+        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
+        <h5 class="services-item-title">Orientação Psicológica</h5>
+      </div>
+      <div class="services-item">
+        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
+        <h5 class="services-item-title">Orientação Psicológica</h5>
+      </div>
 
     </div>
-
   </div>
 </section>

@@ -3,7 +3,41 @@
     text-align: center;
   }
 
-  .services-icons-wrap {
+  .services-wrapper {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .services-item {
+      padding: 1rem;
+      width: 23%;
+      margin: 0.5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.625rem;
+      transition: all 0.5s;
+      border-bottom: 0.25rem solid transparent;
+
+      &:hover {
+        transform: translateY(-1rem);
+        box-shadow: $box-shadow;
+        border-color: #b8a07e;
+      }
+
+      .service-item-icon {
+        height: 70px;
+        width: auto;
+        object-fit: contain;
+      }
+
+      .services-item-title {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
   }
 }
