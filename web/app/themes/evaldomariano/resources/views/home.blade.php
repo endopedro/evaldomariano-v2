@@ -7,4 +7,5 @@
   @include('partials.sections.services')
   @include('partials.sections.blog')
   @include('partials.sections.testimonials')
+  @include('partials.sections.youtube')
 @endsection
