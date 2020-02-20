@@ -1,4 +1,4 @@
-<section class="section-symptoms" style="background: url('@asset('images/consultorio.jpg')') repeat scroll center center / cover;">
+<section class="section section-symptoms" style="background: url('@asset('images/consultorio.jpg')') repeat scroll center center / cover;">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6">

@@ -1,7 +1,7 @@
-<section class="section-services">
+<section class="section section-services">
   <div class="container">
 
-    <div class="services-title">
+    <div class="section-title">
       <h2>O que ofereço</h2>
     </div>
 

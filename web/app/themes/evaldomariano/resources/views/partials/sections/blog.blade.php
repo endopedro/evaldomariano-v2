@@ -1,7 +1,7 @@
-<section class="section-blog">
+<section class="section section-blog">
   <div class="container">
 
-    <div class="blog-title">
+    <div class="section-title">
       <h2>Blog</h2>
     </div>
 

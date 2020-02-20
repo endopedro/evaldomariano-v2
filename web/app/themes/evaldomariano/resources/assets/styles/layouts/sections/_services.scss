@@ -1,8 +1,4 @@
 .section-services {
-  .services-title {
-    text-align: center;
-  }
-
   .services-wrapper {
     display: flex;
     justify-content: center;
@@ -11,7 +7,7 @@
     .services-item {
       padding: 1rem;
       width: 23%;
-      margin: 0.5%;
+      margin: 0 0.5% 1% 0.5%;
       display: flex;
       flex-direction: column;
       justify-content: center;

@@ -6,4 +6,5 @@
   @include('partials.sections.symptoms')
   @include('partials.sections.services')
   @include('partials.sections.blog')
+  @include('partials.sections.testimonials')
 @endsection
