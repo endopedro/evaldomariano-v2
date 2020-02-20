@@ -1,0 +1,29 @@
+.section-testimonials {
+  text-align: center;
+
+  .testimonials-subtitle {
+    margin-bottom: 3rem;
+  }
+
+  .testimonials-image {
+    object-fit: contain;
+    height: 80px;
+  }
+
+  .testimonials-testimonial {
+    .testimonial-text {
+      margin: 1.5rem 0;
+    }
+
+    .testimonial-author {
+      font-size: 1.5rem;
+      color: #b8a07e;
+    }
+
+    .testimonial-author-profession {
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: $gray-600;
+    }
+  }
+}
