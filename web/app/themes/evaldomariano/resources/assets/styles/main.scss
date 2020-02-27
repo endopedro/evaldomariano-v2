@@ -24,8 +24,9 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
-@import "layouts/sections";
 @import "layouts/pages/home";
+@import "layouts/components/_contact-item";
+@import "layouts/sections";
 @import "layouts/sections/home-header";
 @import "layouts/sections/about";
 @import "layouts/sections/symptoms";

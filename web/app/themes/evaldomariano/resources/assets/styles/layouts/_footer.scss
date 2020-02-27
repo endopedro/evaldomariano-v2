@@ -1,0 +1,61 @@
+.footer {
+  background-color: $white-smoke;
+
+  .contact {
+    padding: 5rem 0;
+
+    .contact-title {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .contact-form {
+    //
+  }
+
+  .copyright {
+    margin-bottom: 3rem;
+
+    .copyright-title {
+      font-size: 1.75rem;
+    }
+
+    .copyright-text {
+      font-size: 1rem;
+      text-transform: uppercase;
+      text-align: justify;
+    }
+  }
+
+  .social {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: $nobel;
+
+    .social-title {
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+    }
+
+    .social-icons {
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+
+      .social-icon {
+        margin: 0.325rem;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.5s;
+
+        &:hover {
+          color: #b8a07e;
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }
+}

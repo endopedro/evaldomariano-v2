@@ -1,0 +1,14 @@
+.contact-item {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+
+  .contact-item-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .contact-item-content {
+    font-size: 1.125rem;
+  }
+}
