@@ -1,3 +1,6 @@
+@php
+    /* Template Name: Front-page Template */
+@endphp
 @extends('layouts.app')
 
 @section('content')
