@@ -6,6 +6,7 @@
 
     .contact-title {
       margin-bottom: 2rem;
+      font-weight: 600;
     }
   }
 
@@ -24,6 +25,9 @@
       font-size: 1rem;
       text-transform: uppercase;
       text-align: justify;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+      line-height: 1.75rem;
     }
   }
 
@@ -46,13 +50,13 @@
       justify-content: center;
 
       .social-icon {
-        margin: 0.325rem;
+        margin: 0.325rem 0.75rem;
         text-decoration: none;
         color: inherit;
         transition: all 0.5s;
 
         &:hover {
-          color: #b8a07e;
+          color: $primary;
           transform: translateY(-5px);
         }
       }

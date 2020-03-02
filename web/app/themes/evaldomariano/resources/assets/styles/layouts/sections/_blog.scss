@@ -8,6 +8,19 @@
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: $border-radius;
+      margin-bottom: 25px;
+    }
+
+    .post-title {
+      font-size: 1.625rem;
+      line-height: 24px;
+      margin-bottom: 12px;
+    }
+
+    .post-text p {
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 24px;
     }
   }
 }

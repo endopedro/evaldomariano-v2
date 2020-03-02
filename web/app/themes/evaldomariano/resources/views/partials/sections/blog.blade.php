@@ -9,9 +9,7 @@
       <div class="col-lg-4">
         <div class="blog-post">
           <div class="post-image" style="background-image: url('http://evaldomariano.com.br/wp-content/uploads/WhatsApp-Image-2019-12-23-at-16.31.06.jpeg')"></div>
-          <div class="post-title">
-            <h2>Saiba por limites aos seus filhos.</h2>
-          </div>
+          <h3 class="post-title">Saiba por limites aos seus filhos.</h3>
           <div class="post-text">
             <p>É importante que os pais estejam atentos a educação dos filhos.
               Haja vista, que a vida adulta requer comportamentos positivos como
@@ -26,9 +24,7 @@
       <div class="col-lg-4">
         <div class="blog-post">
           <div class="post-image" style="background-image: url('http://evaldomariano.com.br/wp-content/uploads/WhatsApp-Image-2019-12-23-at-16.31.06.jpeg')"></div>
-          <div class="post-title">
-            <h2>Saiba por limites aos seus filhos.</h2>
-          </div>
+          <h3 class="post-title">Saiba por limites aos seus filhos.</h3>
           <div class="post-text">
             <p>É importante que os pais estejam atentos a educação dos filhos.
               Haja vista, que a vida adulta requer comportamentos positivos como
@@ -43,9 +39,7 @@
       <div class="col-lg-4">
         <div class="blog-post">
           <div class="post-image" style="background-image: url('http://evaldomariano.com.br/wp-content/uploads/WhatsApp-Image-2019-12-23-at-16.31.06.jpeg')"></div>
-          <div class="post-title">
-            <h2>Saiba por limites aos seus filhos.</h2>
-          </div>
+          <h3 class="post-title">Saiba por limites aos seus filhos.</h3>
           <div class="post-text">
             <p>É importante que os pais estejam atentos a educação dos filhos.
               Haja vista, que a vida adulta requer comportamentos positivos como

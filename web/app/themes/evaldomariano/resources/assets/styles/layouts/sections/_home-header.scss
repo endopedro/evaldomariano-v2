@@ -36,6 +36,7 @@
     .header-subtitle {
       color: $white;
       font-weight: $font-weight-bold;
+      font-weight: 600;
     }
 
     .header-social {
@@ -46,7 +47,7 @@
         transition: all 0.5s;
 
         &:hover {
-          color: #b8a07e;
+          color: $primary;
         }
       }
     }

@@ -19,7 +19,7 @@
       &:hover {
         transform: translateY(-1rem);
         box-shadow: $box-shadow;
-        border-color: #b8a07e;
+        border-color: $primary;
       }
 
       .service-item-icon {

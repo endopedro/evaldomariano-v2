@@ -2,7 +2,9 @@
   text-align: center;
 
   .testimonials-subtitle {
+    font-size: 1.75rem;
     margin-bottom: 3rem;
+    line-height: 1.2;
   }
 
   .testimonials-image {
@@ -13,17 +15,22 @@
   .testimonials-testimonial {
     .testimonial-text {
       margin: 1.5rem 0;
+      line-height: 28px;
+      font-size: 1.125rem;
+      font-weight: 500;
     }
 
     .testimonial-author {
+      font-weight: 500;
       font-size: 1.5rem;
-      color: #b8a07e;
+      color: $primary;
     }
 
     .testimonial-author-profession {
       font-size: 1rem;
       text-transform: uppercase;
       color: $gray-600;
+      font-weight: 500;
     }
   }
 }
