@@ -2,20 +2,13 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6">
-        <h5 class="symptoms-left-title">HÁ ALGUÉM QUE VOCÊ PODE DESABAFAR</h5>
-        <h2 class="symptoms-left-subtitle">Muito Além do Ouvir…</h2>
-        <h3 class="symptoms-text">POSSO TE AJUDAR<br>Caso você esteja sentindo...</h3>
+        <h5 class="symptoms-left-title">{{the_field('extra_section1_title')}}</h5>
+        <h2 class="symptoms-left-subtitle">{{the_field('extra_section1_caption')}}</h2>
+        <h3 class="symptoms-text">{{the_field('extra_section1_content')}}</h3>
       </div>
       <div class="col-md-6 lado-b">
         <p class="symptoms-text">
-          → Ansiedade, Depressão e Pânico<br><br>
-          → Tristeza, Estresse e Falta de Motivação<br><br>
-          → Perda do Sentido da Vida<br><br>
-          → Irritabilidade, Culpa, Medo, Sentimento de Vazio<br><br>
-          → Frustrações nas Relações Amorosas<br><br>
-          → Carência Afetiva<br><br>
-          → Doenças Psicossomáticas: tensão, dor de cabeça, aperto no peito, entre outros<br><br>
-          Atendo particular e pelos convênios: Unimed, Vitallis, Red Med, Associação Médica, Ipsemg, Fratari, Liv e Brasil Med Card.
+          {{the_field('extra_section2_content')}}
         </p>
       </div>
     </div>

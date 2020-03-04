@@ -147,6 +147,174 @@
             "maxlength": "",
             "rows": "",
             "new_lines": "wpautop"
+        },
+        {
+            "key": "field_5e5f2486f4804",
+            "label": "Seção extra I (título)",
+            "name": "extra_section1_title",
+            "type": "text",
+            "instructions": "A seção extra I corresponde àquela logo após o \"sobre mim\". Este campo refere-se ao título da seção.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e5f34a68f60f",
+            "label": "Seção extra I (subtítulo)",
+            "name": "extra_section1_caption",
+            "type": "text",
+            "instructions": "A seção extra I corresponde àquela logo após o \"sobre mim\". Este campo refere-se ao subtítulo da seção.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e5f34f28f610",
+            "label": "Seção extra I (conteúdo)",
+            "name": "extra_section1_content",
+            "type": "textarea",
+            "instructions": "A seção extra I corresponde àquela logo após o \"sobre mim\". Este campo refere-se ao conteúdo da seção.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5e5f2fa2811b1",
+            "label": "Whatsapp (telefone)",
+            "name": "wpp_contact",
+            "type": "text",
+            "instructions": "Número de contato do whatsapp. Inserir apenas os números do ddd e telefone, sem espaçamento.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Ex:61999999999",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e5f3086811b2",
+            "label": "Facebook (link)",
+            "name": "fb_link",
+            "type": "text",
+            "instructions": "Adicionar link para página ou perfil do facebook.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e5f30d0811b3",
+            "label": "Instagram (link)",
+            "name": "ig_link",
+            "type": "text",
+            "instructions": "Adicionar link para página ou perfil do Instagram.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e5f311a811b4",
+            "label": "Youtube (link)",
+            "name": "yt_link",
+            "type": "text",
+            "instructions": "Adicionar link para página do youtube.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e58892bdb01f",
+            "label": "Youtube (vídeo)",
+            "name": "yt_video",
+            "type": "oembed",
+            "instructions": "Adicionar link para vídeo do no youtube. Refere-se ao vídeo em destaque na página inicial do site.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        },
+        {
+            "key": "field_5e5f3691972cb",
+            "label": "Seção extra II (conteúdo)",
+            "name": "extra_section2_content",
+            "type": "textarea",
+            "instructions": "A seção extra II corresponde àquela a direita da seção extra I. Este campo refere-se ao conteúdo da seção.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
         }
     ],
     "location": [
@@ -179,5 +347,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1582603011
+    "modified": 1583298313
 }

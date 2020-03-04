@@ -1,14 +1,16 @@
 
 @php
-  $images_sliders = get_field('header_slider');
+  $images_slider = get_field('header_slider');
 @endphp
 
 <section class="home-header">
 
   <div class="home-header-carousel slick-carousel">
-    <img class="home-header-carousel-image" src="http://evaldomariano.com.br/wp-content/uploads/cropped-ev_avt.jpg" alt="">
-    <img class="home-header-carousel-image" src="http://evaldomariano.com.br/wp-content/uploads/IMG_1857-1.jpeg" alt="">
-    <img class="home-header-carousel-image" src="http://evaldomariano.com.br/wp-content/uploads/91289a26-8cbb-402e-ae4a-72402dcfe8f8-1024x768.jpg" alt="">
+    @php
+      foreach($images_slider as $img){
+        echo '<img class="home-header-carousel-image" src="' . $img .'" alt="">' ;
+      }
+    @endphp
   </div>
 
   <div class="container">
@@ -18,10 +20,18 @@
       <div class="d-none" id="typed-text">{{ the_field('header_caption') }}</div>
 
       <div class="header-social list-unstyled">
-        <a class="header-social-item" href="#"><i class="fab fa-facebook-square"></i></a>
-        <a class="header-social-item" href="#"><i class="fab fa-instagram"></i></a>
-        <a class="header-social-item" href="#"><i class="fab fa-youtube"></i></a>
-        <a class="header-social-item" href="http://api.whatsapp.com/send?1=pt_BR&phone=#"><i class="fab fa-whatsapp"></i></a>
+        @if(the_field(fb_link))
+          <a class="header-social-item" href="{{ the_field('fb_link') }}"><i class="fab fa-facebook-square"></i></a>
+        @endif
+        @if(the_field(ig_link))
+          <a class="header-social-item" href="{{ the_field('ig_link') }}"><i class="fab fa-instagram"></i></a>
+        @endif
+        @if(the_field(yt_link))
+          <a class="header-social-item" href="{{ the_field('yt_link') }}"><i class="fab fa-youtube"></i></a>
+        @endif
+        @if(the_field(wpp_contact))
+          <a class="header-social-item" href="http://api.whatsapp.com/send?1=pt_BR&phone=+55{{ the_field('wpp_contact')}}"><i class="fab fa-whatsapp"></i></a>
+        @endif
       </div>
 
     </div>
