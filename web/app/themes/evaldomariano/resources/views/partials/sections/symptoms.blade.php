@@ -1,7 +1,7 @@
 <section class="section section-symptoms">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6 left">
+      <div class="col-md-6 left mb-4 mb-lg-0">
         <h5 class="symptoms-title">HÁ ALGUÉM QUE VOCÊ PODE DESABAFAR</h5>
         <h2 class="symptoms-subtitle">Muito Além do Ouvir…</h2>
         <h3 class="symptoms-text">POSSO TE AJUDAR<br>Caso você esteja sentindo...</h3>

@@ -7,15 +7,12 @@
 
     <div class="youtube-video">
       <iframe
-        width="510"
-        height="302"
         src="https://www.youtube.com/embed/ITe5CkrLQZQ"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
       </iframe>
     </div>
-
 
   </div>
 </section>

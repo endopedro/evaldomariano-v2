@@ -1,7 +1,7 @@
 <section class="section section-about">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-3 mb-lg-0">
         <div class="about-img-frame">
           <div class="about-img">
             {{-- <img src="http://evaldomariano.com.br/wp-content/uploads/cropped-ev_avt.jpg" class="img-responsive" alt="me"> --}}

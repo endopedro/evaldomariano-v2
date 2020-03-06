@@ -9,6 +9,7 @@
       background-size: cover;
       border-radius: $border-radius;
       margin-bottom: 25px;
+      box-shadow: $box-shadow-sm;
     }
 
     .post-title {
@@ -21,6 +22,43 @@
       font-size: 1.125rem;
       font-weight: 500;
       line-height: 24px;
+    }
+
+    .post-divisor:not(.last) {
+      text-align: center;
+      border-bottom: 3px solid lighten($primary, 15%);
+      width: 100px;
+      margin: 3rem auto;
+      border-radius: $border-radius-lg;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .section-blog {
+    .blog-post {
+      .post-image {
+        height: 400px;
+      }
+
+      .post-divisor:not(.last) {
+        width: 150px;
+        margin: 4rem auto;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .section-blog {
+    .blog-post {
+      .post-image {
+        height: 200px;
+      }
+
+      .post-divisor:not(.last) {
+        display: none;
+      }
     }
   }
 }

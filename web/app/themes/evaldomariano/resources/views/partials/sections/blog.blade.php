@@ -19,6 +19,7 @@
               momentos, nem […]
             </p>
           </div>
+          <div class="post-divisor"></div>
         </div>
       </div>
       <div class="col-lg-4">
@@ -34,6 +35,7 @@
               momentos, nem […]
             </p>
           </div>
+          <div class="post-divisor"></div>
         </div>
       </div>
       <div class="col-lg-4">
@@ -49,6 +51,7 @@
               momentos, nem […]
             </p>
           </div>
+          <div class="post-divisor last"></div>
         </div>
       </div>
 
