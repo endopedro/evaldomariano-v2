@@ -40,6 +40,27 @@ export default {
       backDelay: 2000,
     });
 
+    // Home services Scroll
+    let isInViewport = function (elem) {
+      var bounding = elem.getBoundingClientRect();
+      return (
+          bounding.top-100 >= 0 &&
+          bounding.left >= 0 &&
+          bounding.bottom+100 <= (window.innerHeight || document.documentElement.clientHeight) &&
+          bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    };
+    let services = document.getElementsByClassName('services-item')
+    window.addEventListener('scroll', () => {
+      [].forEach.call(services, service => {
+        if (isInViewport(service) && window.innerWidth < 768) {
+          service.classList.add('hover');
+        } else {
+          service.classList.remove('hover');
+        }
+      })
+    })
+
   },
   finalize() {
     // JavaScript to be fired on the home page, after the init JS

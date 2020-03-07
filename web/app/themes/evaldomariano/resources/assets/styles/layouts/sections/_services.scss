@@ -16,7 +16,8 @@
       transition: all 0.5s;
       border-bottom: 0.25rem solid transparent;
 
-      &:hover {
+      &:hover,
+      &.hover {
         transform: translateY(-1rem);
         box-shadow: $box-shadow;
         border-color: $primary;
