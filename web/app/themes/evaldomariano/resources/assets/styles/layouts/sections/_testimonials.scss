@@ -12,6 +12,28 @@
     height: 80px;
   }
 
+  .testimonials-carousel {
+    .slick-dots {
+      transform: translateY(0.9rem);
+
+      li {
+        button::before {
+          font-size: 0.85rem;
+        }
+
+        &.slick-active button::before {
+          color: $primary;
+        }
+
+        &:hover {
+          button::before {
+            color: lighten($primary, 10%);
+          }
+        }
+      }
+    }
+  }
+
   .testimonials-testimonial {
     .testimonial-text {
       margin: 1.5rem 0;

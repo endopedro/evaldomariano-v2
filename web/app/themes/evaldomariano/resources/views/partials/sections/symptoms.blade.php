@@ -1,4 +1,4 @@
-<section class="section section-symptoms" style="background: url('@asset('images/consultorio.jpg')') repeat scroll center center / cover;">
+<section class="section section-symptoms">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6">
@@ -6,7 +6,7 @@
         <h2 class="symptoms-left-subtitle">{{the_field('extra_section1_caption')}}</h2>
         <h3 class="symptoms-text">{{the_field('extra_section1_content')}}</h3>
       </div>
-      <div class="col-md-6 lado-b">
+      <div class="col-md-6 right">
         <p class="symptoms-text">
           {{the_field('extra_section2_content')}}
         </p>

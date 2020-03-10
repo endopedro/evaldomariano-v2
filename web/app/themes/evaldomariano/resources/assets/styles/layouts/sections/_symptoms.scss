@@ -1,11 +1,26 @@
 .section-symptoms {
+  background-image: url(../images/consultorio.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: auto;
   color: $white;
 
-  .symptoms-left-subtitle,
-  .symptoms-text {
-    color: $white;
-    font-weight: 600;
+  .left {
+    .symptoms-title,
+    .symptoms-subtitle {
+      margin-bottom: 2rem;
+    }
+
+    .symptoms-subtitle {
+      font-weight: 600;
+    }
+  }
+
+  .right {
+    .symptoms-text {
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
   }
 }

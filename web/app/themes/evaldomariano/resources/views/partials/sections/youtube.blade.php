@@ -1,3 +1,6 @@
+@php
+ $yt_video = get_field('highlighted_video');
+@endphp
 <section class="section section-youtube">
   <div class="container">
 
@@ -6,9 +9,8 @@
     </div>
 
     <div class="youtube-video">
-      {{the_field('yt_video')}}
+      {!! $yt_video['yt_video'] !!}
     </div>
-
 
   </div>
 </section>

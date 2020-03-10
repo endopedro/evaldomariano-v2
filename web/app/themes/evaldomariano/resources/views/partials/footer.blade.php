@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-lg-6">
         <div class="contact">
           <h2 class="contact-title">Entre em contato</h2>
           @include('../components/contact-item', [
@@ -26,18 +26,18 @@
             ])
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6">
         <div class="contact-form"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-5">
+      <div class="col-lg-5">
         <div class="copyright">
           <h2 class="copyright-title">Posso Proporcionar...</h2>
           <p class="copyright-text">CONFIANÇA, SEGURANÇA, DISCRIÇÃO, SIGILO, CUIDADO ÉTICO E UMA RELAÇÃO DE AJUDA PROFISSIONAL QUE PODE CONTRIBUIR PARA SUPERAÇÃO DE CONFLITOS E DIFICULDADES DO COTIDIANO.</p>
         </div>
       </div>
-      <div class="col-7">
+      <div class="col-lg-7">
         <div class="copyright">
           <h2 class="copyright-title">Direitos Autorais</h2>
           <p class="copyright-text">CONFORME A LEI 9.610/98, É PERMITIDA A REPRODUÇÃO TOTAL OU PARCIAL, BEM COMO A DIVULGAÇÃO DE TODO O CONTEÚDO DESTE BLOG, DESDE QUE SEJA ATRIBUÍDO O DEVIDO CRÉDITO E CITAÇÃO DE DIREITO DE PROPRIEDADE INTELECTUAL AO PSICÓLOGO EVALDO MARIANO.</p>

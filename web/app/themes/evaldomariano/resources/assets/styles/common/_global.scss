@@ -1,0 +1,14 @@
+a {
+  transition: 0.5s;
+
+  &,
+  &:link,
+  &:visited {
+    color: initial;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $primary;
+  }
+}
