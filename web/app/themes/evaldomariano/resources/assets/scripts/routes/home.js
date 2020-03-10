@@ -1,9 +1,19 @@
 import 'slick-carousel'
 import Typed from 'typed.js';
+import ScrollReveal from 'scrollreveal'
 
 export default {
   init() {
     // JavaScript to be fired on the home page
+
+    // Home ScrollReveal
+    let sr = ScrollReveal()
+    sr.reveal('.section-testimonials', {
+      duration: 1500,
+      origin: 'bottom',
+      distance: '75px',
+      delay: 600,
+    })
 
     // Home header carousel
     const membersSlickCarousel = $('.home-header-carousel.slick-carousel')
