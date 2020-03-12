@@ -4,5 +4,33 @@
     height: 500px;
     object-fit: cover;
     object-position: center top;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    margin-bottom: 2rem;
+  }
+
+  .about-text {
+    font-size: 1.125rem;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .about-greeting {
+    color: $primary;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .about {
+    .about-image {
+      height: 100%;
+      margin-bottom: 0;
+    }
   }
 }

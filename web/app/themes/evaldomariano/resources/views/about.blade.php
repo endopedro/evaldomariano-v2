@@ -9,13 +9,13 @@
       <div class="section-title">
         <h1>Sobre mim</h1>
       </div>
-      <div class="row">
+      <div class="row mb-3">
 
-        <div class="col-md-5">
+        <div class="col-lg-5 pb-lg-3">
           <img class="about-image" src="http://evaldomariano.com.br/wp-content/uploads/IMG_1857-1.jpeg" alt="">
         </div>
 
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <div class="about-text">
             <p>Evaldo Mariano é uma pessoa simples, sensível e dedicado aos estudos. Nas horas livres gosta de ler, dormir, adora estar com a família e com os amigos. Ama assistir séries e filmes relacionados à Psicologia.</p>
             <p>Para lidar com os conflitos emocionais, buscou expandir sua formação no curso de Especialização em Psicologia Clínica, Humanista e Existencial (FACCIDADE), em uma linha de análise, cujo propósito é&nbsp;<strong>ampliar as possibilidades de vida do ser humano.</strong></p>
@@ -25,13 +25,17 @@
           </div>
         </div>
 
-        <div class="row">
-          <a href="#" class="btn btn-primary btn-lg btn-block">Conheça mais sobre o meu currículo clicando aqui</a>
-          <h2 class="d-block">Seja muito bem vindo(a)</h2>
-        </div>
-
-
       </div>
+
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <a href="#" class="btn btn-secondary btn-lg">Conheça mais sobre o meu currículo clicando aqui</a>
+        </div>
+        <div class="col-12 text-center">
+          <h2 class="about-greeting">Seja muito bem vindo(a)!</h2>
+        </div>
+      </div>
+
     </div>
   </div>
 @endsection
