@@ -10,9 +10,11 @@
         <h1>Sobre mim</h1>
       </div>
       <div class="row">
+
         <div class="col-md-5">
           <img class="about-image" src="http://evaldomariano.com.br/wp-content/uploads/IMG_1857-1.jpeg" alt="">
         </div>
+
         <div class="col-md-7">
           <div class="about-text">
             <p>Evaldo Mariano é uma pessoa simples, sensível e dedicado aos estudos. Nas horas livres gosta de ler, dormir, adora estar com a família e com os amigos. Ama assistir séries e filmes relacionados à Psicologia.</p>
@@ -22,6 +24,13 @@
             <p>Este site é mais do que um portfólio da vida profissional, ele trata de questões que tocam profundamente a existência humana. Então, fica o convite para que você faça boas reflexões, – e jamais se esqueça:&nbsp;<strong>é um desrespeito com você, viver uma vida que não faça sentido</strong>. Pense nisso!</p>
           </div>
         </div>
+
+        <div class="row">
+          <a href="#" class="btn btn-primary btn-lg btn-block">Conheça mais sobre o meu currículo clicando aqui</a>
+          <h2 class="d-block">Seja muito bem vindo(a)</h2>
+        </div>
+
+
       </div>
     </div>
   </div>
