@@ -4,9 +4,9 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="section about">
+  <div class="page about">
     <div class="container">
-      <div class="section-title">
+      <div class="page-title">
         <h1>Sobre mim</h1>
       </div>
       <div class="row mb-3">

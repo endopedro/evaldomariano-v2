@@ -1,0 +1,22 @@
+main {
+  .page {
+    padding: 8rem 0;
+
+    .page-title {
+      margin-bottom: 4.375rem;
+
+      & h2 {
+        font-size: 1.5625rem;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+      & h2,
+      & h1 {
+        text-align: center;
+        line-height: 1.2;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
