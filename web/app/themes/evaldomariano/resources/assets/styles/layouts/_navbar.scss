@@ -76,7 +76,8 @@ nav {
       float: left;
 
       img {
-        height: 50px;
+        max-height: 50px;
+        max-width: 270px;
       }
     }
 
@@ -88,6 +89,18 @@ nav {
 
 .active {
   color: #afafaf;
+}
+
+@media (min-width: 400px) {
+  nav {
+    .main-nav-top-content {
+      .logo {
+        img {
+          max-width: none;
+        }
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(lg) {
