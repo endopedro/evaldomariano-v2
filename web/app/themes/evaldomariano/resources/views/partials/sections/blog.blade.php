@@ -1,3 +1,10 @@
+@php
+    $recent_posts = wp_get_recent_posts(array(
+    'numberposts' => 3,
+    'post_status' => 'publish',
+    'order_by' => 'post_date'
+  ), $output = OBJECT);
+@endphp
 <section class="section section-blog">
   <div class="container">
 
@@ -6,61 +13,23 @@
     </div>
 
     <div class="row">
-
+    @foreach ($recent_posts as $post)
       <div class="col-lg-4">
-        <a href="#">
+      <a href="{{get_permalink($post->ID)}}">
           <div class="blog-post">
-            <div class="post-image" style="background-image: url('http://evaldomariano.com.br/wp-content/uploads/WhatsApp-Image-2019-12-23-at-16.31.06.jpeg')"></div>
+          <div class="post-image" style="background-image: url('{{get_the_post_thumbnail_url($post->ID)}}')"></div>
             <div class="post-content">
-              <h3 class="post-title">Saiba por limites aos seus filhos.</h3>
+              <h3 class="post-title">{{$post->post_title}}</h3>
               <div class="post-text">
-                <p>É importante que os pais estejam atentos a educação dos filhos.
-                  Haja vista, que a vida adulta requer comportamentos positivos como
-                  respeito, altruísmo, cuidado ético, honestidade, entre tantos outros
-                  para a vida em sociedade. Outro fator que deve ser levado em
-                  consideração é a experiência do limite, o não é positivo em alguns
-                  momentos, nem […]
-                </p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div><div class="col-lg-4">
-        <a href="#">
-          <div class="blog-post">
-            <div class="post-image" style="background-image: url('http://evaldomariano.com.br/wp-content/uploads/WhatsApp-Image-2019-12-23-at-16.31.06.jpeg')"></div>
-            <div class="post-content">
-              <h3 class="post-title">Saiba por limites aos seus filhos.</h3>
-              <div class="post-text">
-                <p>É importante que os pais estejam atentos a educação dos filhos. Outro fator que deve ser levado em
-                  consideração é a experiência do limite, o não é positivo em alguns
-                  momentos, nem […]
-                </p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div><div class="col-lg-4">
-        <a href="#">
-          <div class="blog-post">
-            <div class="post-image" style="background-image: url('http://evaldomariano.com.br/wp-content/uploads/WhatsApp-Image-2019-12-23-at-16.31.06.jpeg')"></div>
-            <div class="post-content">
-              <h3 class="post-title">Saiba por limites aos seus filhos.</h3>
-              <div class="post-text">
-                <p>É importante que os pais estejam atentos a educação dos filhos.
-                  Haja vista, que a vida adulta requer comportamentos positivos como
-                  respeito, altruísmo, cuidado ético, honestidade, entre tantos outros
-                  para a vida em sociedade. Outro fator que deve ser levado em
-                  consideração é a experiência do limite, o não é positivo em alguns
-                  momentos, nem […]
-                </p>
+                <p>{{$post->post_excerpt}}</p>
               </div>
             </div>
           </div>
         </a>
       </div>
+    @endforeach
+
 
     </div>
-
   </div>
 </section>

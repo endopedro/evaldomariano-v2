@@ -1,11 +1,11 @@
 {
     "key": "group_5e67e5fee7953",
-    "title": "About Me",
+    "title": "Sobre mim",
     "fields": [
         {
             "key": "field_5e67e61caf427",
             "label": "Foto",
-            "name": "profile_img",
+            "name": "about_me_img",
             "type": "image",
             "instructions": "",
             "required": 1,
@@ -27,11 +27,11 @@
             "mime_types": ""
         },
         {
-            "key": "field_5e67e834af428",
-            "label": "Conteúdo",
-            "name": "profile_content",
-            "type": "textarea",
-            "instructions": "",
+            "key": "field_5e6a7baf124fa",
+            "label": "Título",
+            "name": "about_me_title",
+            "type": "text",
+            "instructions": "Refere-se ao título da página Sobre mim. Obrigatório",
             "required": 1,
             "conditional_logic": 0,
             "wrapper": {
@@ -41,14 +41,33 @@
             },
             "default_value": "",
             "placeholder": "",
-            "maxlength": "",
-            "rows": 10,
-            "new_lines": "br"
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e67e834af428",
+            "label": "Conteúdo",
+            "name": "about_me_content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_5e67e887af429",
             "label": "Botão de link externo",
-            "name": "external_link_bt",
+            "name": "about_me_bt",
             "type": "text",
             "instructions": "Refere-se ao texto do botão para o link externo. Não obrigatório",
             "required": 0,
@@ -74,7 +93,7 @@
         {
             "key": "field_5e67e917af42a",
             "label": "Link externo",
-            "name": "external_link",
+            "name": "about_me_link",
             "type": "link",
             "instructions": "",
             "required": 0,
@@ -92,14 +111,33 @@
                 "id": ""
             },
             "return_format": "url"
+        },
+        {
+            "key": "field_5e6a7aca6e247",
+            "label": "Saudação",
+            "name": "about_me_greeting",
+            "type": "text",
+            "instructions": "Refere-se ao texto de saudação presente no fim da página. Não obrigatório",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
         [
             {
-                "param": "page",
+                "param": "page_template",
                 "operator": "==",
-                "value": "101"
+                "value": "views\/about.blade.php"
             }
         ]
     ],
@@ -108,8 +146,22 @@
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
-    "hide_on_screen": "",
+    "hide_on_screen": [
+        "permalink",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
     "active": 1,
     "description": "",
-    "modified": 1583942801
+    "modified": 1584037233
 }

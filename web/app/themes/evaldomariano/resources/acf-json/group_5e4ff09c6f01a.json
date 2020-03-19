@@ -1,6 +1,6 @@
 {
     "key": "group_5e4ff09c6f01a",
-    "title": "Home fields",
+    "title": "Front page",
     "fields": [
         {
             "key": "field_5e67c5b4b62f2",
@@ -87,7 +87,7 @@
         {
             "key": "field_5e67c4ebc74af",
             "label": "Sobre mim",
-            "name": "about_me",
+            "name": "personal_info",
             "type": "group",
             "instructions": "",
             "required": 1,
@@ -101,8 +101,8 @@
             "sub_fields": [
                 {
                     "key": "field_5e549980b3630",
-                    "label": "Sobre mim (imagem)",
-                    "name": "about_me_img",
+                    "label": "Foto",
+                    "name": "personal_img",
                     "type": "image",
                     "instructions": "",
                     "required": 1,
@@ -125,8 +125,8 @@
                 },
                 {
                     "key": "field_5e503dc47efcf",
-                    "label": "Sobre mim (título)",
-                    "name": "about_me_title",
+                    "label": "Título",
+                    "name": "personal_title",
                     "type": "text",
                     "instructions": "",
                     "required": 1,
@@ -144,8 +144,8 @@
                 },
                 {
                     "key": "field_5e5045397efd0",
-                    "label": "Sobre mim (subtítulo)",
-                    "name": "about_me_caption",
+                    "label": "Subtítulo",
+                    "name": "personal_caption",
                     "type": "text",
                     "instructions": "",
                     "required": 1,
@@ -163,10 +163,10 @@
                 },
                 {
                     "key": "field_5e5493d23f106",
-                    "label": "Sobre mim (conteúdo)",
-                    "name": "about_me_content",
+                    "label": "Conteúdo",
+                    "name": "personal_content",
                     "type": "textarea",
-                    "instructions": "Conteúdo do campo \"sobre mim\". Obrigatório",
+                    "instructions": "Texto principal do campo \"sobre mim\". Obrigatório",
                     "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -432,5 +432,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1583864511
+    "modified": 1584036470
 }

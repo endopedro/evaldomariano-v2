@@ -1,3 +1,9 @@
+@php
+    $epitome = get_field('epitome', get_page_by_title('rodape')->ID);
+    $cpyright = get_field('cpyright', get_page_by_title('rodape')->ID);
+    $info = get_field('contact_info', get_page_by_title('rodape')->ID);
+    $social = get_field('social_networks', get_page_by_title('redes-sociais')->ID);
+@endphp
 <footer class="footer">
   <div class="container">
     <div class="row">
@@ -5,23 +11,25 @@
         <div class="contact">
           <h2 class="contact-title">Entre em contato</h2>
           @include('../components/contact-item', [
-            'content' => 'Clínica Núcleo Espaço Essencial<br>Av. 19 c/ 20 e 22, n. 1333 – Centro<br>Ituiutaba/MG',
+            'content' => $info['contact_address'],
             'icon' => 'fas fa-map-marker-alt'
             ])
           @include('../components/contact-item', [
-            'content' => '(34) 3261-3877',
+            'content' => $info['contact_phone_number'],
             'icon' => 'fas fa-phone'
             ])
           @include('../components/contact-item', [
-            'content' => 'Seg – Sex / 07h às 17h',
+            'content' => $info['contact_open_hours'],
             'icon' => 'far fa-clock'
             ])
+            @if($social['wpp_contact'])
+              @include('../components/contact-item', [
+                'content' => $social['wpp_contact'],
+                'icon' => 'fab fa-whatsapp'
+                ])
+            @endif
           @include('../components/contact-item', [
-            'content' => '(34) 99647-3877',
-            'icon' => 'fab fa-whatsapp'
-            ])
-          @include('../components/contact-item', [
-            'content' => 'contato@evaldomariano.com.br',
+            'content' => $info['contact_email'],
             'icon' => 'far fa-envelope'
             ])
         </div>
@@ -33,14 +41,14 @@
     <div class="row">
       <div class="col-lg-5">
         <div class="copyright">
-          <h2 class="copyright-title">Posso Proporcionar...</h2>
-          <p class="copyright-text">CONFIANÇA, SEGURANÇA, DISCRIÇÃO, SIGILO, CUIDADO ÉTICO E UMA RELAÇÃO DE AJUDA PROFISSIONAL QUE PODE CONTRIBUIR PARA SUPERAÇÃO DE CONFLITOS E DIFICULDADES DO COTIDIANO.</p>
+          <h2 class="copyright-title">{!! $epitome['epitome_title'] !!}</h2>
+        <p class="copyright-text">{!! $epitome['epitome_content'] !!}</p>
         </div>
       </div>
       <div class="col-lg-7">
         <div class="copyright">
-          <h2 class="copyright-title">Direitos Autorais</h2>
-          <p class="copyright-text">CONFORME A LEI 9.610/98, É PERMITIDA A REPRODUÇÃO TOTAL OU PARCIAL, BEM COMO A DIVULGAÇÃO DE TODO O CONTEÚDO DESTE BLOG, DESDE QUE SEJA ATRIBUÍDO O DEVIDO CRÉDITO E CITAÇÃO DE DIREITO DE PROPRIEDADE INTELECTUAL AO PSICÓLOGO EVALDO MARIANO.</p>
+          <h2 class="copyright-title">{!! $cpyright['cpyright_title'] !!}</h2>
+          <p class="copyright-text">{!! $cpyright['cpyright_content'] !!}</p>
         </div>
       </div>
     </div>

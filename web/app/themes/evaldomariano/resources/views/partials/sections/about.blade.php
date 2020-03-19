@@ -1,5 +1,5 @@
 @php
-    $aboutme = get_field('about_me');
+    $aboutme = get_field('personal_info');
 @endphp
 
 <section class="section section-about">
@@ -9,7 +9,7 @@
         <div class="about-img-frame">
           <div class="about-img">
             {{-- <img src="http://evaldomariano.com.br/wp-content/uploads/cropped-ev_avt.jpg" class="img-responsive" alt="me"> --}}
-          <img src="{{$aboutme['about_me_img']}}" class="img-responsive animated fadeInLeft" alt="me">
+          <img src="{{$aboutme['personal_img']}}" class="img-responsive animated fadeInLeft" alt="me">
           </div>
         </div>
       </div>
@@ -17,11 +17,11 @@
       <div class="col-lg-7">
         <div class="about-descr">
           <p class="about-descr-heading animated fadeInRight">
-            {!! $aboutme['about_me_title'] !!}<br>
-            {!! $aboutme['about_me_caption'] !!}
+            {!! $aboutme['personal_title'] !!}<br>
+            {!! $aboutme['personal_caption'] !!}
           </p>
           <div class="about-descr-text">
-            {!! $aboutme['about_me_content'] !!}
+            {!! $aboutme['personal_content'] !!}
           </div>
         </div>
       </div>
