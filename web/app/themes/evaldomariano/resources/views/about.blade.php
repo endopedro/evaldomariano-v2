@@ -6,10 +6,10 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="section about">
+  <div class="page about">
     <div class="container">
-      <div class="section-title">
-      <h1>{{the_field('about_me_title')}}</h1>
+      <div class="page-title">
+        <h1>{{the_field('about_me_title')}}</h1>
       </div>
       <div class="row mb-3">
 
