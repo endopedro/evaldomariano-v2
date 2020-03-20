@@ -2,7 +2,8 @@
     $recent_posts = wp_get_recent_posts(array(
     'numberposts' => 3,
     'post_status' => 'publish',
-    'order_by' => 'post_date'
+    'order_by' => 'post_date',
+    'post_type' => 'post',
   ), $output = OBJECT);
 @endphp
 <section class="section section-blog">
@@ -28,7 +29,6 @@
         </a>
       </div>
     @endforeach
-
 
     </div>
   </div>
