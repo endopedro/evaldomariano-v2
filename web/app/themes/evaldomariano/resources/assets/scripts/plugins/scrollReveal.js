@@ -11,6 +11,10 @@ const revealFrom = (side) => ({
 
 const elements = [
   { side: "left", class: ".about-img-frame" },
+  { side: "left", class: ".symptoms-left-title" },
+  { side: "left", class: ".symptoms-left-subtitle" },
+  { side: "left", class: ".symptoms-text" },
+  { side: "right", class: ".right .symptoms-text" },
   { side: "right", class: ".about-description-heading" },
   { side: "right", class: ".about-description-text" },
 ];
