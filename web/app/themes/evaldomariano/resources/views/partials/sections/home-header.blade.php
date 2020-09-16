@@ -1,4 +1,3 @@
-
 @php
   $header_fields = get_field('home_header');
   $social_fields = get_field('social_networks',get_page_by_title('redes-sociais')->ID);
