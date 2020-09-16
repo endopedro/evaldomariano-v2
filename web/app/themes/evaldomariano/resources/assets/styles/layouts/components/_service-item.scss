@@ -1,0 +1,64 @@
+.service-item {
+  padding: 1rem;
+  width: 90%;
+  margin: 0 0.5% 2rem 0.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  transition: all 0.5s;
+  border-bottom: 0.25rem solid transparent;
+
+  &:hover,
+  &.hover {
+    transform: translateY(-1rem);
+    box-shadow: $box-shadow;
+    border-color: $primary;
+  }
+
+  &-icon {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  &-title {
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .service-item {
+    width: 31%;
+    margin: 0 0.5% 1% 0.5%;
+
+    &-icon {
+      height: 90px;
+    }
+
+    &-title {
+      margin-top: 0.75rem;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .service-item {
+    width: 23%;
+    margin: 0 0.5% 1% 0.5%;
+
+    &-icon {
+      height: 70px;
+    }
+
+    &-title {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+  }
+}

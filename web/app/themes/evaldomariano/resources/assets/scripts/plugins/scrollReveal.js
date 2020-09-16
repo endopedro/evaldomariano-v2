@@ -7,6 +7,7 @@ const revealFrom = (side) => ({
   origin: side,
   distance: "75px",
   // delay: 100,
+  cleanup: true,
 });
 
 const elements = [
@@ -17,6 +18,7 @@ const elements = [
   { side: "right", class: ".right .symptoms-text" },
   { side: "right", class: ".about-description-heading" },
   { side: "right", class: ".about-description-text" },
+  { side: "bottom", class: ".service-item" },
 ];
 
 elements.map((el) => {

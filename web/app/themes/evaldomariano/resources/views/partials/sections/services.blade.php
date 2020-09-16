@@ -1,3 +1,13 @@
+@php
+  $args = array(
+    'posts_per_page' => -1,
+    'post_type' => 'service',
+    'sort_order' => 'desc',
+    'orderby' => 'post__in'
+);
+  $posts = get_posts( $args );
+@endphp
+
 <section class="section section-services">
   <div class="container">
 
@@ -7,34 +17,13 @@
 
     <div class="services-wrapper">
 
-      <div class="services-item">
-        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
-        <h5 class="services-item-title">Orientação Psicológica</h5>
-      </div>
-      <div class="services-item">
-        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
-        <h5 class="services-item-title">Orientação Psicológica</h5>
-      </div>
-      <div class="services-item">
-        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
-        <h5 class="services-item-title">Orientação Psicológica</h5>
-      </div>
-      <div class="services-item">
-        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
-        <h5 class="services-item-title">Orientação Psicológica</h5>
-      </div>
-      <div class="services-item">
-        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
-        <h5 class="services-item-title">Orientação Psicológica</h5>
-      </div>
-      <div class="services-item">
-        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
-        <h5 class="services-item-title">Orientação Psicológica</h5>
-      </div>
-      <div class="services-item">
-        <img src="@asset('images/icons/idea.png')" alt="" class="service-item-icon">
-        <h5 class="services-item-title">Orientação Psicológica</h5>
-      </div>
+      @if( $posts )
+        @foreach( $posts as $post )
+          @php setup_postdata( $GLOBALS['post'] =& $post ) @endphp
+          @include('components.service-item')
+        @endforeach
+        @php wp_reset_postdata() @endphp
+      @endif
 
     </div>
   </div>
