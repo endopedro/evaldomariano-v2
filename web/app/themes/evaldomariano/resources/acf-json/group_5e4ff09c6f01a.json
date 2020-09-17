@@ -496,6 +496,7 @@
     "instruction_placement": "label",
     "hide_on_screen": [
         "permalink",
+        "the_content",
         "excerpt",
         "discussion",
         "comments",
@@ -503,6 +504,7 @@
         "slug",
         "author",
         "format",
+        "page_attributes",
         "featured_image",
         "categories",
         "tags",
@@ -510,5 +512,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1600351161
+    "modified": 1600353332
 }

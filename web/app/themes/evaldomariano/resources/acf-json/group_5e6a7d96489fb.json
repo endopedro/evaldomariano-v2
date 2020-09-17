@@ -23,7 +23,7 @@
                     "name": "contact_address",
                     "type": "text",
                     "instructions": "",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -42,7 +42,7 @@
                     "name": "contact_phone_number",
                     "type": "text",
                     "instructions": "",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -61,7 +61,26 @@
                     "name": "contact_open_hours",
                     "type": "text",
                     "instructions": "",
-                    "required": 1,
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f63789801242",
+                    "label": "Whatsapp",
+                    "name": "contact_whatsapp",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -80,7 +99,7 @@
                     "name": "contact_email",
                     "type": "text",
                     "instructions": "",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -211,7 +230,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "133"
+                "value": "12"
             }
         ]
     ],
@@ -223,5 +242,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1584583365
+    "modified": 1600354529
 }

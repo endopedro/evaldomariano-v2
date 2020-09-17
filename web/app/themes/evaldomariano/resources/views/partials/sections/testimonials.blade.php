@@ -16,13 +16,12 @@
       @if($testimonials)
         @foreach ($testimonials as $testimonial)
           <div class="testimonials-testimonial">
-            <p class="testimonial-text">{!! $testimonial['testimonial'] !!}</p>
+            <p class="testimonial-text">“{!! $testimonial['testimonial'] !!}”</p>
             <h3 class="testimonial-author">{{ $testimonial['name'] }}</h3>
             <h4 class="testimonial-author-profession">{{ $testimonial['occupation'] }}</h4>
           </div>
         @endforeach
       @endif
     </div>
-
   </div>
 </section>
