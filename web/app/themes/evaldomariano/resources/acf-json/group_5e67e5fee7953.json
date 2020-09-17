@@ -71,14 +71,7 @@
             "type": "text",
             "instructions": "Refere-se ao texto do botão para o link externo. Não obrigatório",
             "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_5e67e917af42a",
-                        "operator": "!=empty"
-                    }
-                ]
-            ],
+            "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -94,7 +87,7 @@
             "key": "field_5e67e917af42a",
             "label": "Link externo",
             "name": "about_me_link",
-            "type": "link",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": [
@@ -110,7 +103,11 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "url"
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5e6a7aca6e247",
@@ -163,5 +160,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1584037233
+    "modified": 1600362167
 }

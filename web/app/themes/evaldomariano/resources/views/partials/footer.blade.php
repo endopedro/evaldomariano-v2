@@ -1,8 +1,8 @@
 @php
-    $epitome = get_field('epitome', get_page_by_title('rodape')->ID);
-    $cpyright = get_field('cpyright', get_page_by_title('rodape')->ID);
-    $info = get_field('contact_info', get_page_by_title('rodape')->ID);
-    $social_fields = get_field('social_networks', get_page_by_title('redes-sociais')->ID);
+  $epitome = get_field('epitome', get_page_by_title('home')->ID);
+  $cpyright = get_field('cpyright', get_page_by_title('home')->ID);
+  $info = get_field('contact_info', get_page_by_title('home')->ID);
+  $social_fields = get_field('social_networks', get_page_by_title('home')->ID);
 @endphp
 
 <footer class="footer">
@@ -11,26 +11,26 @@
       <div class="col-lg-4">
         <div class="contact">
           <h2 class="contact-title">Entre em contato</h2>
-            @includeWhen($info['contact_address'], '../components/contact-item', [
-              'content' => $info['contact_address'],
-              'icon' => 'fas fa-map-marker-alt'
-            ])
-            @includeWhen($info['contact_phone_number'], '../components/contact-item', [
-              'content' => $info['contact_phone_number'],
-              'icon' => 'fas fa-phone'
-            ])
-            @includeWhen($info['contact_open_hours'], '../components/contact-item', [
-              'content' => $info['contact_open_hours'],
-              'icon' => 'far fa-clock'
-            ])
-            @includeWhen($info['contact_whatsapp'], '../components/contact-item', [
-              'content' => $info['contact_whatsapp'],
-              'icon' => 'fab fa-whatsapp'
-            ])
-            @includeWhen($info['contact_email'], '../components/contact-item', [
-              'content' => $info['contact_email'],
-              'icon' => 'far fa-envelope'
-            ])
+          @includeWhen($info['contact_address'], '../components/contact-item', [
+            'content' => $info['contact_address'],
+            'icon' => 'fas fa-map-marker-alt'
+          ])
+          @includeWhen($info['contact_phone_number'], '../components/contact-item', [
+            'content' => $info['contact_phone_number'],
+            'icon' => 'fas fa-phone'
+          ])
+          @includeWhen($info['contact_open_hours'], '../components/contact-item', [
+            'content' => $info['contact_open_hours'],
+            'icon' => 'far fa-clock'
+          ])
+          @includeWhen($info['contact_whatsapp'], '../components/contact-item', [
+            'content' => $info['contact_whatsapp'],
+            'icon' => 'fab fa-whatsapp'
+          ])
+          @includeWhen($info['contact_email'], '../components/contact-item', [
+            'content' => $info['contact_email'],
+            'icon' => 'far fa-envelope'
+          ])
         </div>
       </div>
       <div class="col-lg-6">
