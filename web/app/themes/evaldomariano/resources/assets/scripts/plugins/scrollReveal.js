@@ -20,8 +20,9 @@ const elements = [
   { side: "right", class: ".about-description-text" },
   { side: "bottom", class: ".service-item" },
   { side: "bottom", class: ".blog-post" },
+  { side: "bottom", class: ".section-testimonials" },
 ];
 
-elements.map((el) => {
-  sr.reveal(el.class, revealFrom(el.side));
-});
+// elements.map((el) => {
+//   sr.reveal(el.class, revealFrom(el.side));
+// });

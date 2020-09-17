@@ -276,6 +276,84 @@
             ]
         },
         {
+            "key": "field_5f636a73ef590",
+            "label": "Depoimentos",
+            "name": "testimonials",
+            "type": "repeater",
+            "instructions": "Coloque aqui os depoimentos que serão apresentados na página inicial",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5f636aeeef591",
+                    "label": "Nome",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f636b64ef592",
+                    "label": "Ocupação",
+                    "name": "occupation",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f636b92ef593",
+                    "label": "Depoimento",
+                    "name": "testimonial",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        },
+        {
             "key": "field_5e67d48cacc55",
             "label": "Redes sociais",
             "name": "social_networks",
@@ -432,5 +510,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1584036470
+    "modified": 1600351161
 }

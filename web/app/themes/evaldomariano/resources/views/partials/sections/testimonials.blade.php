@@ -1,10 +1,7 @@
 @php
-    $testimonials = get_posts(array(
-    'post_type' => 'testimonial',
-    'numberposts' => 5,
-    'post_status' => 'publish'
-  ));
+  $testimonials = get_field('testimonials');
 @endphp
+
 <section class="section section-testimonials">
   <div class="container">
 
@@ -18,11 +15,11 @@
     <div class="testimonials-carousel slick-carousel">
       @if($testimonials)
         @foreach ($testimonials as $testimonial)
-        <div class="testimonials-testimonial">
-        <p class="testimonial-text">{!! $testimonial->testimonial_content !!}</p>
-          <h3 class="testimonial-author">{{ $testimonial->the_title }}</h3>
-          <h4 class="testimonial-author-profession">{{ $testimonial->testimonial_profession }}</h4>
-        </div>
+          <div class="testimonials-testimonial">
+            <p class="testimonial-text">{!! $testimonial['testimonial'] !!}</p>
+            <h3 class="testimonial-author">{{ $testimonial['name'] }}</h3>
+            <h4 class="testimonial-author-profession">{{ $testimonial['occupation'] }}</h4>
+          </div>
         @endforeach
       @endif
     </div>
