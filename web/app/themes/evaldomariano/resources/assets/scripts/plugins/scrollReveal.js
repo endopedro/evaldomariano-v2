@@ -19,6 +19,7 @@ const elements = [
   { side: "right", class: ".about-description-heading" },
   { side: "right", class: ".about-description-text" },
   { side: "bottom", class: ".service-item" },
+  { side: "bottom", class: ".blog-post" },
 ];
 
 elements.map((el) => {
