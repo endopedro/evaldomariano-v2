@@ -9,6 +9,7 @@ import Router from "./util/Router";
 import common from "./routes/common";
 import home from "./routes/home";
 import aboutUs from "./routes/about";
+import clinic from "./routes/clinic";
 import "./plugins/scrollReveal";
 
 // Fontawesome
@@ -46,6 +47,8 @@ const routes = new Router({
   home,
   // About Us page, note the change from about-us to aboutUs.
   aboutUs,
+  // Clinic page
+  clinic
 });
 
 // Load Events

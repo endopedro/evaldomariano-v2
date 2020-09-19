@@ -1,0 +1,95 @@
+.clinic {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $primary;
+  }
+
+  .page-title h1 {
+    color: $gray-900 !important;
+  }
+
+  &-section {
+    padding: 3rem 0;
+  }
+
+  &-top {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $black;
+      opacity: 0.6;
+      z-index: -1;
+    }
+
+    &-bg-image {
+      position: absolute;
+      left: 0;
+      top: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+    }
+
+    &-title {
+      font-size: 2.5rem;
+      text-align: center;
+      font-weight: $font-weight-bold;
+      color: $white !important;
+    }
+
+    &-subtitle {
+      font-size: 2rem;
+      text-align: center;
+      font-weight: $font-weight-bold;
+      color: $white !important;
+    }
+  }
+
+  &-description {
+    //
+  }
+
+  &-slider {
+    background-color: $primary;
+
+    &-item {
+      height: 70vh;
+      width: 99%;
+      object-fit: cover;
+      border-radius: $border-radius;
+      box-shadow: $box-shadow;
+    }
+  }
+
+  &-invite {
+    &-pic {
+      height: 50vh;
+      width: 100%;
+      object-fit: cover;
+      border-radius: $border-radius;
+      box-shadow: $box-shadow;
+    }
+
+    &-text {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  }
+}

@@ -6,21 +6,25 @@
           <a href="{{ get_home_url() }}"><img src="@asset('images/logo_site.png')" alt="logo"></a>
         </div>
         <div class="responsive"><i class="fas fa-bars"></i></div>
+        <div class="nav-menu-large">
+          {!! wp_nav_menu(
+            array(
+              'theme_location' => 'primary_navigation',
+              // 'menu_class' => 'nav-menu-large',
+              'container' => '',
+            )
+          ) !!}
+        </div>
+      </div>
+      <div class="nav-menu">
         {!! wp_nav_menu(
           array(
-            'theme_location' => 'top-menu',
-            'menu_class' => 'nav-menu-large',
+            'theme_location' => 'primary_navigation',
+            // 'menu_class' => 'nav-menu',
             'container' => '',
           )
         ) !!}
       </div>
-        {!! wp_nav_menu(
-          array(
-            'theme_location' => 'top-menu',
-            'menu_class' => 'nav-menu',
-            'container' => '',
-          )
-        ) !!}
     </div>
   </div>
 </nav>

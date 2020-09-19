@@ -4,7 +4,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="page about">
+  <div class="page about container">
 
     <div class="page-title">
       <h1>{{ the_field('about_me_title') }}</h1>
