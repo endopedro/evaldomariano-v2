@@ -10,7 +10,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="page clinic">
+  <div class="page-clinic">
 
     <div class="container">
       <div class="page-title">

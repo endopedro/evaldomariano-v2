@@ -11,7 +11,7 @@ export default {
         dots: false,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 4000,
       });
     }
   },
