@@ -93,3 +93,33 @@
     }
   }
 }
+
+@include media-breakpoint-down(md) {
+  .clinic {
+    &-section {
+      padding: 1.5rem 0;
+    }
+
+    &-top {
+      height: 400px;
+
+      &-title {
+        margin-bottom: 2rem;
+      }
+    }
+
+    &-description {
+      text-align: center;
+    }
+
+    &-slider {
+      padding: 3rem 0;
+    }
+
+    &-invite {
+      &-text {
+        margin: 3rem 0;
+      }
+    }
+  }
+}
