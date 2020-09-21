@@ -9,8 +9,8 @@
     ]
   },
   "publicPath": "/app/themes/evaldomariano",
-  "devUrl": "http://evaldomarianov2.localhost",
-  "proxyUrl": "http://localhost:3000",
+  "devUrl": "http://lvh.me:3000/",
+  "proxyUrl": "http://localhost:3001",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
     "app/**/*.php",
