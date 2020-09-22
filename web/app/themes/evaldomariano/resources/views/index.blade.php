@@ -3,16 +3,49 @@
 @section('content')
   @include('partials.page-header')
 
-  @if (!have_posts())
-    <div class="alert alert-warning">
-      {{ __('Sorry, no results were found.', 'sage') }}
+  <div class="blog-page page">
+    <div class="container">
+
+      <div class="page-title">
+        <h1>Blog</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9">
+
+          @if (!have_posts())
+            <div class="alert alert-warning">
+              {{ __('Sorry, no results were found.', 'sage') }}
+            </div>
+            {!! get_search_form(false) !!}
+          @endif
+
+          @while (have_posts()) @php the_post() @endphp
+            @include('components.post-card')
+          @endwhile
+
+          {!! paginate_links() !!}
+
+        </div>
+
+        <div class="col-md-3">
+          <div class="blog-card">
+            busca
+          </div>
+
+          <div class="blog-card">
+            categorias
+          </div>
+
+          <div class="blog-card">
+            posts mais populares
+          </div>
+        </div>
+      </div>
+
+
     </div>
-    {!! get_search_form(false) !!}
-  @endif
+  </div>
 
-  @while (have_posts()) @php the_post() @endphp
-    @include('partials.content-'.get_post_type())
-  @endwhile
 
-  {!! get_the_posts_navigation() !!}
 @endsection

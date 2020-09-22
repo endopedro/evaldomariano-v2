@@ -18,8 +18,15 @@ import {
   faMapMarkerAlt,
   faPhone,
   faBars,
+  faTags,
+  faFeatherAlt,
+  faComments,
 } from "@fortawesome/free-solid-svg-icons";
-import { faClock, faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import {
+  faClock,
+  faEnvelope,
+  faCalendarAlt,
+} from "@fortawesome/free-regular-svg-icons";
 import {
   faWhatsapp,
   faFacebookSquare,
@@ -35,7 +42,11 @@ library.add(
   faFacebookSquare,
   faInstagram,
   faYoutube,
-  faBars
+  faBars,
+  faTags,
+  faFeatherAlt,
+  faCalendarAlt,
+  faComments
 );
 dom.watch();
 
@@ -48,7 +59,7 @@ const routes = new Router({
   // About Us page, note the change from about-us to aboutUs.
   aboutUs,
   // Clinic page
-  clinic
+  clinic,
 });
 
 // Load Events
