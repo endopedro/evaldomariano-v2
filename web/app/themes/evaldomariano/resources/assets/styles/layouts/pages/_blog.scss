@@ -14,5 +14,26 @@
     padding: 1rem;
     background-color: $white;
     margin-bottom: 1.5rem;
+
+    &-title {
+      border-bottom: 2px solid $primary;
+      font-weight: $font-weight-semibold;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .categories {
+      list-style-type: square;
+      padding-inline-start: 1rem;
+      margin-bottom: 0;
+
+      .category {
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          transform: translateX(0.25rem);
+        }
+      }
+    }
   }
 }

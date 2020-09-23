@@ -17,3 +17,24 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid #999;
+  border-radius: $border-radius-sm;
+  color: #292929;
+  font-size: 0.75rem;
+  font-weight: $headings-font-weight;
+  height: 50px;
+  letter-spacing: 0.1em;
+  padding-left: 0.625rem;
+  margin: 0;
+  margin-bottom: 0.75rem;
+  line-height: 0.875rem;
+  text-transform: uppercase;
+
+  &:focus {
+    border-color: $primary;
+    box-shadow: $box-shadow-sm;
+  }
+}

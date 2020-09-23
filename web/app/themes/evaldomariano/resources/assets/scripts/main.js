@@ -21,6 +21,7 @@ import {
   faTags,
   faFeatherAlt,
   faComments,
+  faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faClock,
@@ -46,7 +47,8 @@ library.add(
   faTags,
   faFeatherAlt,
   faCalendarAlt,
-  faComments
+  faComments,
+  faSearch
 );
 dom.watch();
 
