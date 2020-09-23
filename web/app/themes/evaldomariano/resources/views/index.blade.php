@@ -31,7 +31,9 @@
             @include('components.post-card')
           @endwhile
 
-          {!! paginate_links() !!}
+          <div class="pagination">
+            {!! paginate_links() !!}
+          </div>
 
         </div>
 
