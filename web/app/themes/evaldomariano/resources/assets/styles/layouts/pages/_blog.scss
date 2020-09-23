@@ -5,8 +5,10 @@
     background-attachment: fixed;
   }
 
-  .page-title {
-    //
+  .page-title h1 {
+    font-family: "Marck Script", cursive;
+    font-size: 5rem;
+    font-weight: $font-weight-bold;
   }
 
   &-card {
