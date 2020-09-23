@@ -36,38 +36,9 @@
         </div>
 
         <div class="col-md-3">
-          <div class="blog-card">
-            <h6 class="blog-card-title">
-              Busca
-            </h6>
-            <form role="search" method="get" class="form-group" action="{{ get_home_url() }}/">
-              <input type="text" class="form-control" placeholder="Pesquisar" name="s">
-              <button class="btn btn-secondary btn-block" type="submit"><i class="fas fa-search"></i> BUSCAR</button>
-            </form>
-
-          </div>
-
-          <div class="blog-card">
-            <h6 class="blog-card-title">
-              Categorias
-            </h6>
-            <div>
-              <ul class="categories">
-                @foreach( $categories as $category )
-                  <li class="category"><a href="{{ get_category_link( $category->term_id ) }}">{{ $category->name}}</a></li>
-                @endforeach
-              </ul>
-            </div>
-          </div>
-
-          <div class="blog-card">
-            <h6 class="blog-card-title">
-              Posts mais populares
-            </h6>
-          </div>
+          @include('partials.blog-sidebar')
         </div>
       </div>
-
 
     </div>
   </div>
