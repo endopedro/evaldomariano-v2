@@ -27,6 +27,7 @@ import {
   faClock,
   faEnvelope,
   faCalendarAlt,
+  faBookmark,
 } from "@fortawesome/free-regular-svg-icons";
 import {
   faWhatsapp,
@@ -48,7 +49,8 @@ library.add(
   faFeatherAlt,
   faCalendarAlt,
   faComments,
-  faSearch
+  faSearch,
+  faBookmark
 );
 dom.watch();
 

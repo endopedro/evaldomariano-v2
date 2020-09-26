@@ -10,7 +10,7 @@
   <h6 class="blog-card-title">
     Busca
   </h6>
-  <form role="search" method="get" class="form-group" action="{{ get_home_url() }}/">
+  <form role="search" method="get" class="form-group mb-0" action="{{ get_home_url() }}/">
     <input type="text" class="form-control" placeholder="Pesquisar" name="s">
     <button class="btn btn-secondary btn-block" type="submit"><i class="fas fa-search"></i> BUSCAR</button>
   </form>

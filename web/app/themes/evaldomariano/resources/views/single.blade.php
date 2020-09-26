@@ -1,7 +1,37 @@
+@php
+  $categories = get_categories( array(
+    'orderby' => 'name',
+    'order'   => 'ASC'
+  ));
+@endphp
+
 @extends('layouts.app')
 
 @section('content')
-  @while(have_posts()) @php the_post() @endphp
-    @include('partials.content-single-'.get_post_type())
-  @endwhile
+  @include('partials.page-header')
+
+  <div class="blog-page page">
+    <div class="container">
+
+      <div class="page-title">
+        <h1>Blog</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9">
+
+          @while(have_posts()) @php the_post() @endphp
+            @include('partials.content-single-'.get_post_type())
+          @endwhile
+
+        </div>
+
+        <div class="col-md-3">
+          @include('partials.blog-sidebar')
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 @endsection
