@@ -13,10 +13,8 @@
         {{ the_excerpt() }}
       </div>
     </a>
-    <div class="post-card-body-tags">
-      <i class="fas fa-tags mr-1"></i>
-      {!! get_the_tag_list() !!}
-    </div>
+    @include('components/post-tags')
+
   </div>
   <div class="post-card-footer">
     <div class="post-card-footer-content">
