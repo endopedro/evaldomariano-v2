@@ -31,7 +31,7 @@
 
 <div class="blog-card">
   <h6 class="blog-card-title">
-    Posts mais populares
+    Artigos populares
   </h6>
   <div>
     @foreach ($popular_posts as $index=>$post)

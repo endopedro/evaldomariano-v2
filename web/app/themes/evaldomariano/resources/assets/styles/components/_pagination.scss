@@ -4,6 +4,8 @@
   justify-content: center;
 
   .page-numbers {
+    @extend .rounded;
+
     display: inline-block;
     padding: 0.3125rem 0.625rem;
     margin: 0 0.3rem;
