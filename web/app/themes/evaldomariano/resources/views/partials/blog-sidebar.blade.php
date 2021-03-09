@@ -2,7 +2,7 @@
     $popular_posts = pvc_get_most_viewed_posts( array(
     'order'	=> 'asc',
     'post_type' => 'post',
-    'posts_per_page' => 3,
+    'posts_per_page' => 3
   ));
 @endphp
 

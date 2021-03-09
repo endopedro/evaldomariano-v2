@@ -50,3 +50,9 @@
     color: $white;
   }
 }
+
+@include media-breakpoint-down(md) {
+  .popular-post {
+    height: 120px;
+  }
+}
