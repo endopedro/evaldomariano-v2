@@ -11,7 +11,7 @@
     Busca
   </h6>
   <form role="search" method="get" class="form-group mb-0" action="{{ get_home_url() }}/">
-    <input type="text" class="form-control" placeholder="Pesquisar" name="s">
+    <input type="text" class="form-control" placeholder="Pesquisar" name="s" value="{!! get_search_query() !!}">
     <button class="btn btn-secondary btn-block" type="submit"><i class="fas fa-search"></i> BUSCAR</button>
   </form>
 </div>
