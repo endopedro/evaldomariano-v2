@@ -22,6 +22,7 @@ import {
   faFeatherAlt,
   faComments,
   faSearch,
+  faExclamationTriangle,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faClock,
@@ -50,7 +51,8 @@ library.add(
   faCalendarAlt,
   faComments,
   faSearch,
-  faBookmark
+  faBookmark,
+  faExclamationTriangle
 );
 dom.watch();
 
