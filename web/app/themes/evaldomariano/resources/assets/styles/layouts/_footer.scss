@@ -63,3 +63,11 @@
     }
   }
 }
+
+@include media-breakpoint-down(md) {
+  .footer {
+    .contact {
+      padding: 2.5rem 0;
+    }
+  }
+}

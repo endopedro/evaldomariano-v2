@@ -18,7 +18,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-9 mb-3 mb-md-0">
 
           @if (!have_posts())
             <div class="alert alert-warning">

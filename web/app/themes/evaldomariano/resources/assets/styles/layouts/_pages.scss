@@ -21,3 +21,16 @@ main {
     }
   }
 }
+
+@include media-breakpoint-down(md) {
+  main {
+    .page {
+      padding-bottom: 2rem;
+
+      .page-title {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+}

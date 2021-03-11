@@ -25,7 +25,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-9 mb-4 mb-md-0">
 
           <div class="single-post white-card">
             <header class="single-post-header">

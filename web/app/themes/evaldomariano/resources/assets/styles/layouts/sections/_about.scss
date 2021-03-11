@@ -4,6 +4,8 @@
   background: $white-smoke;
 
   .about-img-frame {
+    @extend .rounded;
+
     border: 1.25rem solid $primary;
 
     .about-img img {

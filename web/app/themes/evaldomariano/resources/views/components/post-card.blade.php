@@ -27,10 +27,10 @@
         <span class="d-none d-md-inline-block">{{ get_the_date('j \d\e F \d\e Y') }}</span>
         <span class="d-md-none">{{ get_the_date('d/m/y') }}</span>
       </div>
-      <div class="comments">
+      {{-- <div class="comments">
         <i class="fas fa-comments mr-1"></i>
         <span>{{ get_comments_number() }}</span>
-      </div>
+      </div> --}}
     </div>
   </div>
 </div>
