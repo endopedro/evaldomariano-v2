@@ -54,7 +54,7 @@ export default {
           (window.innerWidth || document.documentElement.clientWidth)
       );
     };
-    let services = document.getElementsByClassName("services-item");
+    let services = document.getElementsByClassName("service-item");
     window.addEventListener("scroll", () => {
       [].forEach.call(services, (service) => {
         if (isInViewport(service) && window.innerWidth < 768) {
