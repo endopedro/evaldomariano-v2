@@ -23,7 +23,7 @@
     </div>
 
     <div class="row">
-      <div class="col-12 text-center mb-4">
+      <div class="col-12 text-center mb-4 about-button">
         <a href="{{ the_field('about_me_link') }}" target="_blank" class="btn btn-secondary btn-lg">Conheça mais sobre o meu currículo clicando aqui</a>
       </div>
       <div class="col-12 text-center">

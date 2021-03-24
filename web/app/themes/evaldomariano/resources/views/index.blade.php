@@ -14,22 +14,26 @@
     <div class="container">
 
       <div class="page-title">
-        <h1>Blog</h1>
+        <a href="{!! get_home_url() !!}/blog">
+          <h1>Blog</h1>
+        </a>
       </div>
 
       <div class="row">
         <div class="col-md-9 mb-3 mb-md-0">
 
-          @if (!have_posts())
-            <div class="alert alert-warning">
-              {{ __('Nenhum artigo encontrado.', 'sage') }}
-            </div>
-            {!! get_search_form(false) !!}
-          @endif
+          <div class="post-cards">
+            @if (!have_posts())
+              <div class="alert alert-warning">
+                {{ __('Nenhum artigo encontrado.', 'sage') }}
+              </div>
+              {!! get_search_form(false) !!}
+            @endif
 
-          @while (have_posts()) @php the_post() @endphp
-            @include('components.post-card')
-          @endwhile
+            @while (have_posts()) @php the_post() @endphp
+              @include('components.post-card')
+            @endwhile
+          </div>
 
           <div class="pagination">
             {!! paginate_links() !!}

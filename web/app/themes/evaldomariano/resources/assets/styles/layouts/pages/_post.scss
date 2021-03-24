@@ -97,18 +97,18 @@
 // }
 
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   .single-post {
     &-header {
       &-content {
         .post-title {
           text-align: center;
           font-size: 1.75rem;
+          margin-bottom: 0.5rem;
         }
 
         .entry-meta {
-          flex-direction: column;
-          align-items: center;
+          justify-content: space-around;
         }
       }
     }

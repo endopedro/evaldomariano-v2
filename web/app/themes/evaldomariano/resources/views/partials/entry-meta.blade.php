@@ -14,7 +14,7 @@
     <i class="far fa-calendar-alt"></i>
     <span class="date">{{ $date }}</span>
   </div>
-  <div class="item">
+  <div class="item d-none d-md-block">
     @if (!empty( $categories))
       <i class="far fa-bookmark"></i>
       <a href="{{ get_category_link($category) }}" class="category">{{ $category->name }}</a>
