@@ -11,13 +11,6 @@
 
 @section('content')
   <div class="page-clinic">
-
-    <div class="container">
-      <div class="page-title">
-        <h1>{{ $title }}</h1>
-      </div>
-    </div>
-
     <div class="clinic-top">
       <img class="clinic-top-bg-image" src="{{ $top_section['background_image'] }}" alt="">
       <h2 class="clinic-top-title">{{ $top_section['title'] }}</h2>
