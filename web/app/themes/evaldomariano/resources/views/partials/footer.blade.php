@@ -33,8 +33,12 @@
           ])
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="contact-form"></div>
+      <div class="col-lg-6 offset-lg-2">
+        <div class="contact">
+          <div class="contact-form">
+            {!! do_shortcode('[contact-form-7 id="1707" title="Contact form 1"]') !!}
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
