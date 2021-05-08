@@ -28,7 +28,8 @@
         ])
         @includeWhen($info['contact_email'], '../components/contact-item', [
           'content' => $info['contact_email'],
-          'icon' => 'far fa-envelope'
+          'icon' => 'far fa-envelope',
+          'class' => 'email'
         ])
       </div>
       <div class="col-lg-6 offset-lg-2">
