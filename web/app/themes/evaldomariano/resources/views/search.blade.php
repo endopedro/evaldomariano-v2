@@ -29,7 +29,7 @@
             <div class="alert alert-warning">
               {{ __('Nenhum artigo encontrado.', 'sage') }}
             </div>
-            {!! get_search_form() !!}
+            {{-- {!! get_search_form() !!} --}}
           @endif
 
           @while(have_posts()) @php the_post() @endphp
