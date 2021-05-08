@@ -25,6 +25,7 @@ main {
 @include media-breakpoint-down(md) {
   main {
     .page {
+      padding-top: 7rem;
       padding-bottom: 2rem;
 
       .page-title {
