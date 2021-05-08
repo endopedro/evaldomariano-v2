@@ -20,7 +20,7 @@ const elements = [
   { side: "left", class: ".post-cards" },
   { side: "left", class: ".single-post" },
   { side: "left", class: ".copyright-left" },
-  { side: "right", class: ".copyright-rigth" },
+  { side: "right", class: ".copyright-right" },
   { side: "right", class: ".symptoms-text" },
   { side: "right", class: ".about-description-heading" },
   { side: "right", class: ".about-description-text" },
