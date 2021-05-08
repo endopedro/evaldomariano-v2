@@ -7,7 +7,6 @@
       <h1>Ops...!</h1>
     </div>
 
-    @if (!have_posts())
       <div class="text-center">
         <div class="icon">
           <i class="fas fa-exclamation-triangle"></i>
@@ -20,7 +19,6 @@
         </a>
         {{-- {!! get_search_form(false) !!} --}}
       </div>
-    @endif
 
   </div>
 @endsection
