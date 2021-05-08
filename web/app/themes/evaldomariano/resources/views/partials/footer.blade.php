@@ -40,13 +40,13 @@
     </div>
     <div class="row">
       <div class="col-lg-5">
-        <div class="copyright left">
+        <div class="copyright copyright-left">
           <h2 class="copyright-title">{!! $epitome['epitome_title'] !!}</h2>
           <div class="copyright-text">{!! $epitome['epitome_content'] !!}</div>
         </div>
       </div>
       <div class="col-lg-7">
-        <div class="copyright right">
+        <div class="copyright copyright-right">
           <h2 class="copyright-title">{!! $cpyright['cpyright_title'] !!}</h2>
           <div class="copyright-text">{!! $cpyright['cpyright_content'] !!}</div>
         </div>
