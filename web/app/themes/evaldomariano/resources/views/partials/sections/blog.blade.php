@@ -41,7 +41,7 @@
     </div>
 
     <div class="row">
-      <a href="" class="btn btn-primary mx-auto mt-2 mt-md-4">VEJA OUTROS POSTS</a>
+      <a href="{!! get_permalink(get_option( 'page_for_posts' )) !!}" class="btn btn-primary mx-auto mt-2 mt-md-4">VEJA OUTROS POSTS</a>
     </div>
 
   </div>
