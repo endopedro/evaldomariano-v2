@@ -41,7 +41,7 @@
       </div>
     </div>
 
-    <div class="clinic-section clinic-invite pb-0">
+    <div class="clinic-section clinic-invite">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
